@@ -1,0 +1,5 @@
+string language
+string enable_grammar
+string disable_grammar
+string acousticenv
+bool active
