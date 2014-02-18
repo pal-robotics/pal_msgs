@@ -11,6 +11,8 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <run_depend>pal_interaction_msgs</run_depend>
+  <run_depend>text_to_speech</run_depend>
+  <run_depend>pal_detection_msgs</run_depend>
 
   <export>
     <metapackage/>
