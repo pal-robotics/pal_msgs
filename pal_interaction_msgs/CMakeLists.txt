@@ -7,12 +7,21 @@ add_message_files(
   DIRECTORY msg
   FILES
     actiontag.msg
+    ASRActivation.msg
+    ASREvent.msg
+    ASRGrammarMngmt.msg
+    ASRLanguage.msg
     asrresult.msg
+    ASRSrvRequest.msg
+    ASRSrvResponse.msg
+    ASRStatus.msg
     asrupdate.msg
+    AudioDeviceDescription.msg
     AudioPlayerState.msg
     audiosignal.msg
     DirectionOfArrival.msg
     EnablingSoundLocalisation.msg
+    TTSstate.msg
     VoiceActivity.msg
     WebGuiEvent.msg
 )
@@ -20,6 +29,7 @@ add_message_files(
 add_service_files(
   DIRECTORY srv
   FILES
+    ASRService.srv
     recognizerService.srv
     SoundLocalisationService.srv
 )
