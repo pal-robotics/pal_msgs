@@ -1,9 +1,9 @@
-# THe status of the ASR
+# The status of the ASR
 # if it is active then active=true
 bool active
 
 # the current language 
-string langauge
+string language
 
 # the current enabled grammar
 string enabled_grammar

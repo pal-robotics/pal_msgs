@@ -1,12 +1,12 @@
-# THis message is to be used in the ASR service to manage the grammars
-# it is possible to enable/disable, load/unload grammars.
+# This message is to be used in the ASR service to manage the grammars
+# makes possible to enable/disable, load/unload grammars.
 
 
-# Tyes of action
-int8 ENABLE = 0
-int8 DISABLE = 1
-int8 LOAD = 2
-int8 UNLOAD = 3
+# Types of action
+int8 ENABLE = 1
+int8 DISABLE = 2
+int8 LOAD = 3
+int8 UNLOAD = 4
 
 # Message variables
 # Type of action requested

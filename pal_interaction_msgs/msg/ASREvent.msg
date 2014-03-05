@@ -2,36 +2,36 @@
 # This message are published in the ASR event topic.
 # The kind of events that are published are the following ones:
 ## Event types to be published.
-uint8 EVENT_UNDEFINED          = 0
-uint8 EVENT_LISTEN_STATE       = 1
-uint8 EVENT_RECONISED_UTT      = 2
-uint8 EVENT_ASR_ACTIVATION     = 3
+int8 EVENT_UNDEFINED          = -1
+int8 EVENT_LISTEN_STATE       = 1
+int8 EVENT_RECOGNIZED_UTT      = 2
+int8 EVENT_ASR_ACTIVATION     = 3
 
 # 1-> The ASR changed its listening state.
-# 2-> The ASR recognised a full uterance and published the result
-# 3-> THe ASR has been activated/deactivated
+# 2-> The ASR recognized a full uterance and published the result
+# 3-> The ASR has been activated/deactivated
 
-# THese are the possible listening states published when event_id = LISTENING_STATE
+# These are the possible listening states published when event_id = LISTENING_STATE
 
 ## Listen states
-uint8 LISTEN_UNDEFINED = 20
-uint8 LISTEN_SPEECH_DETECTED = 21
-uint8 LISTEN_WAITING_FOR_SPEECH = 22
-uint8 LISTEN_END_OF_SPEECH = 23
+int8 LISTEN_UNDEFINED = 20
+int8 LISTEN_SPEECH_DETECTED = 21
+int8 LISTEN_WAITING_FOR_SPEECH = 22
+int8 LISTEN_END_OF_SPEECH = 23
 
-# 21-> Some speech have been detected
+# 21-> Some speech has been detected.
 # 22-> The ASR is waiting for someone to start speaking.
-# 23-> The end of an utterance have been found, and will start decoding it.
+# 23-> The end of an utterance has been found, and will start decoding it.
 
 ##  Message variables
 
 # The event type published.
-uint8 event_id
+int8 event_id
 
-# THe listening state of the ASR
-uint8 listent_state
+# The listening state of the ASR
+int8 listent_state
 
-# The recognised result in case of evnet_id = RECOGNISED_UTT
+# The recognized result in case of event_id = RECOGNIZED_UTT
 asrresult recognized_utterance
 
 
