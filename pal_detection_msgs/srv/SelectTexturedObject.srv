@@ -1,0 +1,3 @@
+string imageFullPathFileName
+---
+bool result  #returns True 

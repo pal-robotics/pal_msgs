@@ -25,6 +25,8 @@ add_message_files(
 add_service_files(
   DIRECTORY srv
   FILES
+    AddTexturedObject.srv
+    SelectTexturedObject.srv
     Recognizer.srv
     SetDatabase.srv
     StartEnrollment.srv
