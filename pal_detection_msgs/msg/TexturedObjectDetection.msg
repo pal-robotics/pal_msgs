@@ -2,5 +2,5 @@
 
 Header header
 
-sensor_msgs/Image img
+sensor_msgs/CompressedImage img
 pal_detection_msgs/RotatedDetection2d roi
