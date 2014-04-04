@@ -1,6 +1,39 @@
-cmake_minimum_required(VERSION 2.4.6)
-include($ENV{ROS_ROOT}/core/rosbuild/rosbuild.cmake)
+cmake_minimum_required(VERSION 2.8.3)
+project(pal_vision_msgs)
 
-rosbuild_init()
-rosbuild_genmsg()
-rosbuild_gensrv()
+find_package(catkin REQUIRED
+  COMPONENTS
+    message_generation
+    sensor_msgs
+    geometry_msgs
+)
+
+add_message_files(
+  DIRECTORY msg
+  FILES
+    DetectedObject.msg
+    DetectedPerson.msg
+    FaceDetection.msg
+    FaceDetections.msg
+    FollowMeResponse.msg
+    Gesture.msg
+    HeadPanTilt.msg
+    HogDetection.msg
+    HogDetections.msg
+    LegDetections.msg
+    Rectangle.msg
+)
+
+add_service_files(
+  DIRECTORY srv
+  FILES
+    FaceTrackingStart.srv
+    FaceTrackingStop.srv
+    FollowMeStart.srv
+    FollowMeStop.srv
+    LookToPixel.srv
+)
+
+generate_messages(DEPENDENCIES sensor_msgs geometry_msgs)
+
+catkin_package(CATKIN_DEPENDS message_runtime sensor_msgs geometry_msgs)
