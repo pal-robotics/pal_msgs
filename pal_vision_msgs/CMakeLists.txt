@@ -6,6 +6,7 @@ find_package(catkin REQUIRED
     message_generation
     sensor_msgs
     geometry_msgs
+    actionlib_msgs
 )
 
 add_message_files(
@@ -34,6 +35,8 @@ add_service_files(
     LookToPixel.srv
 )
 
-generate_messages(DEPENDENCIES sensor_msgs geometry_msgs)
+add_action_files(DIRECTORY action FILES FaceRecognition.action)
 
-catkin_package(CATKIN_DEPENDS message_runtime sensor_msgs geometry_msgs)
+generate_messages(DEPENDENCIES sensor_msgs geometry_msgs actionlib_msgs)
+
+catkin_package(CATKIN_DEPENDS message_runtime sensor_msgs geometry_msgs actionlib_msgs)
