@@ -1,0 +1,14 @@
+<package>
+  <description brief="pal_vision_msgs">
+
+     pal_vision_msgs
+
+  </description>
+  <author>Jordi Pages</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/vision_msgs</url>
+  <depend package="std_msgs"/>
+  <depend package="geometry_msgs"/>
+  <depend package="sensor_msgs"/>
+</package>

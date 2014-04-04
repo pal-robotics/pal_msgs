@@ -1,0 +1,10 @@
+<package>
+  <description brief="pal_control_msgs"> </description>
+  <author>Victor Lopez</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/pal_control_msgs</url>
+  <depend package="actionlib"/>
+  <depend package="actionlib_msgs"/>
+  <depend package="std_msgs"/>
+</package>

@@ -1,0 +1,14 @@
+<package>
+  <description brief="pal_tablet_msgs">
+
+     pal_tablet_msgs
+
+  </description>
+  <author>Enrico Mingo, maintained by Victor Lopez</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/pal_tablet_msgs</url>
+  <depend package="roscpp"/>
+  <depend package="rospy"/>
+  <depend package="std_msgs"/>
+</package>

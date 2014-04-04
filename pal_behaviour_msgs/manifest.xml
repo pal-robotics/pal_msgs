@@ -1,0 +1,12 @@
+<package>
+  <description brief="pal_behaviour_msgs">
+
+     pal_behaviour_msgs
+
+  </description>
+  <author>Daniel Pinyol, maintained by Victor Lopez</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/behaviour_msgs</url>
+  <depend package="std_msgs"/>
+</package>
