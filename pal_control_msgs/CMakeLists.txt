@@ -1,11 +1,13 @@
-cmake_minimum_required(VERSION 2.4.6)
-include($ENV{ROS_ROOT}/../catkin/cmake/debug_message.cmake)
-include($ENV{ROS_ROOT}/core/rosbuild/rosbuild.cmake)
+cmake_minimum_required(VERSION 2.8.3)
+project(pal_control_msgs)
 
-rosbuild_find_ros_package(actionlib_msgs)
-include(${actionlib_msgs_PACKAGE_PATH}/cmake/actionbuild.cmake)
-genaction()
+find_package(catkin REQUIRED COMPONENTS message_generation actionlib_msgs)
 
-rosbuild_init()
-rosbuild_genmsg()
-rosbuild_gensrv()
+include_directories(include)
+
+add_action_files(DIRECTORY action FILES MotionManager.action)
+
+
+generate_messages(DEPENDENCIES actionlib_msgs)
+
+catkin_package(CATKIN_DEPENDS message_runtime actionlib_msgs)
