@@ -17,8 +17,10 @@
   <run_depend>pal_interaction_msgs</run_depend>
   <run_depend>pal_motion_model_msgs</run_depend>
   <run_depend>pal_multirobot_msgs</run_depend>
+  <run_depend>pal_navigation_msgs</run_depend>
   <run_depend>pal_tablet_msgs</run_depend>
   <run_depend>pal_vision_msgs</run_depend>
+  <run_depend>pal_walking_msgs</run_depend>
   <run_depend>pal_wifi_localization_msgs</run_depend>
   <run_depend>text_to_speech</run_depend>
 
