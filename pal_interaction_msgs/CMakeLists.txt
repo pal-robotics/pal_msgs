@@ -9,7 +9,7 @@ add_message_files(
     actiontag.msg
     ASRActivation.msg
     ASREvent.msg
-    ASRGrammarMngmt.msg
+    ASRLangModelMngmt.msg
     ASRLanguage.msg
     asrresult.msg
     ASRSrvRequest.msg

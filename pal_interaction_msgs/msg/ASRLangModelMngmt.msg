@@ -13,4 +13,4 @@ int8 UNLOAD = 4
 int8 action
 
 # Name of the grammar to actuate on.
-string grammarName
+string modelName
