@@ -7,6 +7,7 @@ add_message_files(
   DIRECTORY msg
   FILES
     BatteryState.msg
+    Bumper.msg
     LedGroup.msg
 )
 
