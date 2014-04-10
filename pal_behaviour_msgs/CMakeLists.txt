@@ -7,6 +7,7 @@ add_action_files(
   DIRECTORY action
   FILES
     BehaviourTask.action
+    Presentation.action
 )
 
 add_message_files(
