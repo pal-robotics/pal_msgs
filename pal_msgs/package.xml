@@ -22,7 +22,6 @@
   <run_depend>pal_vision_msgs</run_depend>
   <run_depend>pal_walking_msgs</run_depend>
   <run_depend>pal_wifi_localization_msgs</run_depend>
-  <run_depend>text_to_speech</run_depend>
 
   <export>
     <metapackage/>
