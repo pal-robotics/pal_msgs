@@ -35,7 +35,8 @@ int8 event_id
 # The listening state of the ASR
 int8 listen_state
 
-# The recognized result in case of event_id = RECOGNIZED_UTT
+# The recognized result in case of event_id = EVENT_RECOGNIZED_UTT
+# Also it contains a best-guess in case of event_id = EVENT_FAILED_DECODING
 asrresult recognized_utterance
 
 
