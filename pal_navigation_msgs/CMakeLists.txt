@@ -5,7 +5,12 @@ find_package(catkin REQUIRED COMPONENTS message_generation nav_msgs sensor_msgs 
 
 include_directories(include)
 
-add_action_files(DIRECTORY action FILES JoyPriority.action JoyTurbo.action)
+add_action_files(
+  DIRECTORY action
+  FILES
+    JoyPriority.action
+    JoyTurbo.action
+    VisualTraining.action)
 
 add_message_files(
   DIRECTORY msg
