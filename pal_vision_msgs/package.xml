@@ -3,10 +3,10 @@
   <version>0.9.0</version>
   <description>
     This package defines messages used by the PAL vision packages.</description>
-  <maintainer email="jordi.adell@pal-robotics.com">Jordi Adell</maintainer>
+  <maintainer email="jordi.pages@pal-robotics.com">Jordi Pages</maintainer>
   <maintainer email="paul.mathieu@pal-robotics.com">Paul Mathieu</maintainer>
   <license>BSD</license>
-  <author email="jordi.adell@pal-robotics.com">Jordi Adell</author>
+  <author email="jordi.pages@pal-robotics.com">Jordi Pages</author>
 
   <buildtool_depend>catkin</buildtool_depend>
 
