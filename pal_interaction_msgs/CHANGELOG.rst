@@ -2,8 +2,8 @@
 Changelog for package pal_interaction_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.9.1 (2014-05-27)
+------------------
 * Added a calibration request
   Aslo changed some comments as documentation
 * Corrected some comments to match the code

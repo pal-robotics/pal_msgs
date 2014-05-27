@@ -2,8 +2,8 @@
 Changelog for package pal_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.9.1 (2014-05-27)
+------------------
 * Update meta-package with pal_walking_msgs and pal_navigation_msgs
 * Remove unneeded package text_to_speech
   Its functionalities (Sound action) have been merged
