@@ -20,6 +20,7 @@ add_message_files(
     PersonDetections.msg
     RotatedDetection2d.msg
     TexturedObjectDetection.msg
+    WaveDetection.msg
 )
 
 add_service_files(
