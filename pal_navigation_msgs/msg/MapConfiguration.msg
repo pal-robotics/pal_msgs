@@ -1,4 +1,5 @@
 #Configuration of a map
+int32 numberOfSubMaps
 
 #Points of interest of the map
 pal_navigation_msgs/POI pois
@@ -10,7 +11,7 @@ pal_navigation_msgs/POI vo
 #Zones of interest of the map
 pal_navigation_msgs/POI zoi
 
-string visualLocDbId
+pal_navigation_msgs/VisualLocDB visualLocDb
 
 #Real (ugly) map 
 nav_msgs/OccupancyGrid navigation_map

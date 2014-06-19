@@ -27,6 +27,7 @@ add_message_files(
     PolarReadingScan.msg
     ServiceStatus.msg
     TabletPOI.msg
+    VisualLocDB.msg
 )
 
 add_service_files(
