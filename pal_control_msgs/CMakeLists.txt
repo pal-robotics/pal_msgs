@@ -7,6 +7,7 @@ include_directories(include)
 
 add_action_files(DIRECTORY action FILES MotionManager.action)
 
+add_service_files(FILES CurrentLimit.srv)
 
 generate_messages(DEPENDENCIES actionlib_msgs)
 
