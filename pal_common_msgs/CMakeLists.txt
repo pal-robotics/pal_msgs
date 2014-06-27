@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(pal_common_msgs)
 
-find_package(catkin REQUIRED COMPONENTS actionlib_msgs message_generation)
+find_package(catkin REQUIRED COMPONENTS actionlib_msgs std_msgs message_generation)
 
 add_action_files(
   DIRECTORY action
@@ -9,6 +9,12 @@ add_action_files(
     Disable.action
 )
 
-generate_messages(DEPENDENCIES actionlib_msgs)
+add_message_files(
+  DIRECTORIY msg
+  FILES
+    JointCurrent.msg
+    )
 
-catkin_package(CATKIN_DEPENDS actionlib_msgs message_runtime)
+generate_messages(DEPENDENCIES actionlib_msgs std_msgs)
+
+catkin_package(CATKIN_DEPENDS actionlib_msgs std_msgs message_runtime)
