@@ -10,7 +10,7 @@ add_action_files(
 )
 
 add_message_files(
-  DIRECTORIY msg
+  DIRECTORY msg
   FILES
     JointCurrent.msg
     )
