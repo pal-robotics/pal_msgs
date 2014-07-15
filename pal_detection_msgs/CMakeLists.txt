@@ -18,6 +18,7 @@ add_message_files(
     LegDetections.msg
     PersonDetection.msg
     PersonDetections.msg
+    RecognizedActions.msg
     RotatedDetection2d.msg
     TexturedObjectDetection.msg
     WaveDetection.msg
