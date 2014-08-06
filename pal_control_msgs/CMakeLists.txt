@@ -10,8 +10,6 @@ include_directories(include)
 add_message_files(DIRECTORY msg FILES ActuatorCurrentLimit.msg)
 add_action_files(DIRECTORY action FILES MotionManager.action)
 
-add_service_files(FILES CurrentLimit.srv)
-
 generate_messages(DEPENDENCIES actionlib_msgs)
 
 catkin_package(CATKIN_DEPENDS message_runtime
