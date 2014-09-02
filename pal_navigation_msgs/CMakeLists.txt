@@ -10,6 +10,8 @@ add_action_files(
   FILES
     JoyPriority.action
     JoyTurbo.action
+    GoToPOI.action
+    GoTo.action
     VisualTraining.action)
 
 add_message_files(
