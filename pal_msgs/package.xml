@@ -3,10 +3,10 @@
   <name>pal_msgs</name>
   <version>0.10.0</version>
   <description>PAL-specific messages and services</description>
-  <maintainer email="adolfo.rodriguez@pal-cobotics.com">Adolfo Rodriguez Tsouroukdissian</maintainer>
+  <maintainer email="adolfo.rodriguez@pal-robotics.com">Adolfo Rodriguez Tsouroukdissian</maintainer>
   <maintainer email="paul.mathieu@pal-robotics.com">Paul Mathieu</maintainer>
   <license>BSD</license>
-  <author email="adolfo.rodriguez@pal-cobotics.com">Adolfo Rodriguez Tsouroukdissian</author>
+  <author email="adolfo.rodriguez@pal-robotics.com">Adolfo Rodriguez Tsouroukdissian</author>
 
   <buildtool_depend>catkin</buildtool_depend>
 
