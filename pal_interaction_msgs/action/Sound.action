@@ -1,3 +1,9 @@
+## .................
+## DEPRECATED
+## Please do not use this action as will be removed in the future.
+## i18ntext.action together with pal_tts_cfg pkg is recomended instead.
+## ---------------------------------------------------------------------
+ 
 ## goal definition
 # Text to be spoken
 string text
