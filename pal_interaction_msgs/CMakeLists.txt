@@ -8,11 +8,6 @@ find_package(catkin REQUIRED
     actionlib_msgs
 )
 
-add_action_files(
-  DIRECTORY action
-  FILES
-    Sound.action
-)
 
 add_message_files(
   DIRECTORY msg
@@ -32,9 +27,20 @@ add_message_files(
     audiosignal.msg
     DirectionOfArrival.msg
     EnablingSoundLocalisation.msg
+    I18nText.msg
+    I18nArgument.msg
     TTSstate.msg
+    TtsText.msg
+    TtsMark.msg
     VoiceActivity.msg
     WebGuiEvent.msg
+)
+
+add_action_files(
+  DIRECTORY action
+  FILES
+    Sound.action
+    Tts.action
 )
 
 add_service_files(
