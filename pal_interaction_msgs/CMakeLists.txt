@@ -27,11 +27,11 @@ add_message_files(
     audiosignal.msg
     DirectionOfArrival.msg
     EnablingSoundLocalisation.msg
-    i18nText.msg
-    i18nArgument.msg
+    I18nText.msg
+    I18nArgument.msg
     TTSstate.msg
-    ttsText.msg
-    ttsMark.msg
+    TtsText.msg
+    TtsMark.msg
     VoiceActivity.msg
     WebGuiEvent.msg
 )
@@ -40,7 +40,7 @@ add_action_files(
   DIRECTORY action
   FILES
     Sound.action
-    tts.action
+    Tts.action
 )
 
 add_service_files(

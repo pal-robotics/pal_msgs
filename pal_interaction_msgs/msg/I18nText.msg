@@ -11,4 +11,4 @@ string lang_id
 # This only supports up to 2 arguments and no recursion.
 # However, recursion and more argumnents are
 # planned to be supported in the future.
-i18nArgument[] arguments
+I18nArgument[] arguments

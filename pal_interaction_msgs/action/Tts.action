@@ -6,8 +6,8 @@
 # for internationalisation. The actual text will
 # be obtained from configuration files as in pal_tts_cfg pkg.
  
-i18nText text
-ttsText rawtext
+I18nText text
+TtsText rawtext
 
 # This is to suggest a voice name to the 
 # tts engine. For the same language we might have
@@ -75,4 +75,4 @@ string next_word
 # argument value as mark id. Other fields
 # different from the mark_id are not implemented.
 
-ttsMark mark
+TtsMark marks
