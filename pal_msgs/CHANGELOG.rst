@@ -2,8 +2,8 @@
 Changelog for package pal_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.10.1 (2014-11-17)
+-------------------
 * Fix email address
 * Contributors: Víctor López
 

@@ -2,8 +2,8 @@
 Changelog for package pal_common_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.10.1 (2014-11-17)
+-------------------
 * Add empty action in CMakeLists
 * Add empty action
 * Contributors: Paul Mathieu

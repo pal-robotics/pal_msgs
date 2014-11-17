@@ -2,8 +2,8 @@
 Changelog for package pal_interaction_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.10.1 (2014-11-17)
+-------------------
 * Actions and messages moved to CamelCase
 * New ttsi18n.action and ttstext.action
   New TTS action server that supports internationalisation
