@@ -2,6 +2,15 @@
 Changelog for package pal_interaction_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Actions and messages moved to CamelCase
+* New ttsi18n.action and ttstext.action
+  New TTS action server that supports internationalisation
+  as defined in pal_tts_cfg.  ttstext.action is aimed at replaced
+  the old Sound.action API which is deprecated now.
+* Contributors: Jordi Adell
+
 0.9.1 (2014-05-27)
 ------------------
 * Added a calibration request

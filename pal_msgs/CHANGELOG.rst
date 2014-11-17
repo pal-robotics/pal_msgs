@@ -2,6 +2,11 @@
 Changelog for package pal_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Fix email address
+* Contributors: Víctor López
+
 0.9.1 (2014-05-27)
 ------------------
 * Update meta-package with pal_walking_msgs and pal_navigation_msgs

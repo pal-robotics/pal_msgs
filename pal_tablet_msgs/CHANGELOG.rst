@@ -2,6 +2,9 @@
 Changelog for package pal_tablet_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.9.1 (2014-05-27)
 ------------------
 * Catkinize pal_tablet_msgs
