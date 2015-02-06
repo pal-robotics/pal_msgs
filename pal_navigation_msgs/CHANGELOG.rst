@@ -2,6 +2,9 @@
 Changelog for package pal_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.10.1 (2014-11-17)
 -------------------
 * Moved actions from pal_navigation_manager

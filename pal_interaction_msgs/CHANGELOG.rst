@@ -2,6 +2,11 @@
 Changelog for package pal_interaction_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Added action definition for file-based speech recognition
+* Contributors: Jordi Adell
+
 0.10.1 (2014-11-17)
 -------------------
 * Actions and messages moved to CamelCase
