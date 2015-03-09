@@ -2,6 +2,9 @@
 Changelog for package pal_interaction_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.10.2 (2015-02-06)
 -------------------
 * Added action definition for file-based speech recognition
