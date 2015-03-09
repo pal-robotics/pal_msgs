@@ -2,8 +2,8 @@
 Changelog for package pal_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.10.3 (2015-03-09)
+-------------------
 * Add deprecation notice to MapConfiguration nice map transform
 * Contributors: Víctor López
 
