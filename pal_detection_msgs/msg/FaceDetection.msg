@@ -42,3 +42,15 @@ geometry_msgs/Point32 position
 string name
 float32 confidence
 
+############################
+# Facial expression
+############################
+string EXPRESSION_NEUTRAL="neutral"
+string EXPRESSION_SMILE="smile"
+string EXPRESSION_RAISED_BROWS="raised brows"
+string EXPRESSION_EYES_AWAY="eyes away"
+string EXPRESSION_SQUINTING="squinting"
+string EXPRESSION_FROWNING="frowning"
+string expression
+float32 expression_confidence
+
