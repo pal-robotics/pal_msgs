@@ -2,6 +2,9 @@
 Changelog for package pal_behaviour_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.10.3 (2015-03-09)
 -------------------
 

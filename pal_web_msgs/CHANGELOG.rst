@@ -2,6 +2,9 @@
 Changelog for package pal_web_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.10.3 (2015-03-09)
 -------------------
 * Add pal_web_msgs
