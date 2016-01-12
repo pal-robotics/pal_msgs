@@ -54,3 +54,13 @@ string EXPRESSION_FROWNING="frowning"
 string expression
 float32 expression_confidence
 
+############################
+# Facial emotion
+############################
+float32 emotion_anger_confidence
+float32 emotion_disgust_confidence
+float32 emotion_fear_confidence
+float32 emotion_happiness_confidence
+float32 emotion_neutral_confidence
+float32 emotion_sadness_confidence
+float32 emotion_surprise_confidence
