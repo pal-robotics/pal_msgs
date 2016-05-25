@@ -7,6 +7,7 @@ add_action_files(
   DIRECTORY action
   FILES
     Disable.action
+    Empty.action
 )
 
 add_message_files(

@@ -2,6 +2,20 @@
 Changelog for package pal_detection_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.10.4 (2015-09-04)
+-------------------
+* add facial expressions and confidence information
+* Contributors: Jordi Pages
+
+0.10.3 (2015-03-09)
+-------------------
+
+0.10.2 (2015-02-06)
+-------------------
+
+0.10.1 (2014-11-17)
+-------------------
+
 0.9.1 (2014-05-27)
 ------------------
 * Modifications for the pal_person_detection_fuser

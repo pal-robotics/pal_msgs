@@ -19,6 +19,8 @@ nav_msgs/OccupancyGrid navigation_map
 #Pretty map
 sensor_msgs/Image user_map
 
+# Deprecated, now the user_map must be transformed to match the scale/
+# orientation of the navigation_map
 #Transformation between ugly and pretty map
 pal_navigation_msgs/NiceMapTransformation transform
 

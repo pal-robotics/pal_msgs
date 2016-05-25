@@ -2,6 +2,26 @@
 Changelog for package pal_interaction_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.10.4 (2015-09-04)
+-------------------
+
+0.10.3 (2015-03-09)
+-------------------
+
+0.10.2 (2015-02-06)
+-------------------
+* Added action definition for file-based speech recognition
+* Contributors: Jordi Adell
+
+0.10.1 (2014-11-17)
+-------------------
+* Actions and messages moved to CamelCase
+* New ttsi18n.action and ttstext.action
+  New TTS action server that supports internationalisation
+  as defined in pal_tts_cfg.  ttstext.action is aimed at replaced
+  the old Sound.action API which is deprecated now.
+* Contributors: Jordi Adell
+
 0.9.1 (2014-05-27)
 ------------------
 * Added a calibration request
