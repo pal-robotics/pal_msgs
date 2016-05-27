@@ -36,6 +36,7 @@ add_service_files(
   DIRECTORY srv
   FILES
     Acknowledgment.srv
+    ChangeBuilding.srv
     DisableEmergency.srv
     FinalApproachPose.srv
     GetMapConfiguration.srv
