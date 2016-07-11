@@ -2,6 +2,11 @@
 Changelog for package pal_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add ChangeBuilding service
+* Contributors: Victor Lopez
+
 0.11.0 (2016-07-11)
 -------------------
 
