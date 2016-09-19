@@ -2,6 +2,9 @@
 Changelog for package pal_motion_model_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.11.1 (2016-07-11)
 -------------------
 
