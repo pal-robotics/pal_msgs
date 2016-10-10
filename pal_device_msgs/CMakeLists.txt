@@ -16,6 +16,15 @@ add_message_files(
     LedProgressParams.msg
 )
 
+add_service_files(
+    DIRECTORY srv
+    FILES
+        CancelEffect.srv
+        TimedBlinkEffect.srv
+        TimedColourEffect.srv
+        TimedFadeEffect.srv
+)
+
 add_action_files(
     FILES DoTimedLedEffect.action
     )
