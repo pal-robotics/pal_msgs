@@ -2,6 +2,11 @@
 Changelog for package pal_device_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Re add old led services for backwards compatiblity
+* Contributors: Victor Lopez
+
 0.11.3 (2016-10-07)
 -------------------
 * Add new led messages
