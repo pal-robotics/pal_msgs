@@ -1,4 +1,5 @@
-uint8[] devices
+#uint16 because uint8 is char[] in Python
+uint32[] devices
 
 #Contains parameters for all led effects, but only the selected effect type parameters shall be provided
 LedEffectParams params
