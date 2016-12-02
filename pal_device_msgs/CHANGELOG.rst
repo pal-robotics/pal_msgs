@@ -2,6 +2,11 @@
 Changelog for package pal_device_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Change type of devices field
+* Contributors: Victor Lopez
+
 0.11.4 (2016-10-10)
 -------------------
 * Re add old led services for backwards compatiblity
