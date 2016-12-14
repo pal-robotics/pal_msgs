@@ -2,6 +2,9 @@
 Changelog for package pal_wifi_localization_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.11.5 (2016-12-02)
 -------------------
 

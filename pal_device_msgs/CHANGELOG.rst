@@ -2,6 +2,11 @@
 Changelog for package pal_device_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Added flow led effect
+* Contributors: Jordan Palacios
+
 0.11.5 (2016-12-02)
 -------------------
 * Change type of devices field
