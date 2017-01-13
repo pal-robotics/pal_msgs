@@ -43,6 +43,12 @@ string name
 float32 confidence
 
 ############################
+# Gender recognition
+############################
+string gender
+float32 genderConfidence
+
+############################
 # Facial expression
 ############################
 string EXPRESSION_NEUTRAL="neutral"
