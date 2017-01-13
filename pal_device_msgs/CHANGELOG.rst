@@ -2,6 +2,9 @@
 Changelog for package pal_device_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.11.6 (2016-12-14)
 -------------------
 * Added flow led effect
