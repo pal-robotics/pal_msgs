@@ -15,6 +15,9 @@ add_message_files(
     LedBlinkParams.msg
     LedProgressParams.msg
     LedFlowParams.msg
+    LedDataArrayParams.msg
+    LedEffectViaTopicParams.msg
+    LedPreProgrammedParams.msg
 )
 
 add_service_files(
