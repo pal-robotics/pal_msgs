@@ -2,8 +2,8 @@
 Changelog for package pal_interaction_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.12.1 (2017-05-26)
+-------------------
 * Add visemes
 * Contributors: Victor Lopez
 
