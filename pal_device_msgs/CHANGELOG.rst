@@ -2,6 +2,11 @@
 Changelog for package pal_device_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add more led effects
+* Contributors: Victor Lopez
+
 0.12.0 (2017-01-13)
 -------------------
 

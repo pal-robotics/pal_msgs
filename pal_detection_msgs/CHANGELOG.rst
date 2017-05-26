@@ -2,6 +2,9 @@
 Changelog for package pal_detection_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.12.0 (2017-01-13)
 -------------------
 * add gender fields. Fixes #15063.
