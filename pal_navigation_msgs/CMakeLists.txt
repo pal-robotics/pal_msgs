@@ -39,6 +39,7 @@ add_service_files(
     ChangeBuilding.srv
     DisableEmergency.srv
     FinalApproachPose.srv
+    ListMaps.srv
     GetMapConfiguration.srv
     GetNodes.srv
     GetPOI.srv
