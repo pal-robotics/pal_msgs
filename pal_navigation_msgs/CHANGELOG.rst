@@ -2,8 +2,8 @@
 Changelog for package pal_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.12.2 (2017-09-29)
+-------------------
 * add ListMaps service
 * Contributors: Jeremie Deray
 
