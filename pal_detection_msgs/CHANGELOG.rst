@@ -2,6 +2,11 @@
 Changelog for package pal_detection_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* copy message from pal_vision_msgs to pal_detection
+* Contributors: Jordi Pages
+
 0.12.2 (2017-09-29)
 -------------------
 
