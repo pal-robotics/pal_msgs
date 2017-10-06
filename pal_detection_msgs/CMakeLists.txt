@@ -15,6 +15,7 @@ add_message_files(
     Detections2d.msg
     FaceDetection.msg
     FaceDetections.msg
+    Gesture.msg
     LegDetections.msg
     PersonDetection.msg
     PersonDetections.msg
