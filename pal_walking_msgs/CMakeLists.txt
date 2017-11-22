@@ -3,7 +3,7 @@ project(pal_walking_msgs)
 
 find_package(catkin REQUIRED COMPONENTS geometry_msgs message_generation humanoid_nav_msgs)
 
-add_message_files(FILES WalkingStatus.msg WalkingStep.msg)
+add_message_files(FILES WalkingStatus.msg WalkingStep.msg ContactState.msg)
 
 add_service_files(FILES WalkSteps.srv)
 
