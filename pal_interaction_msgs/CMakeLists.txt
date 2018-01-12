@@ -40,6 +40,7 @@ add_action_files(
   DIRECTORY action
   FILES
     ASRFile.action
+    AudioPlay.action
     Sound.action
     Tts.action
 )
