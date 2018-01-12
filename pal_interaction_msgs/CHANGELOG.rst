@@ -2,6 +2,11 @@
 Changelog for package pal_interaction_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add AudioPlay action
+* Contributors: Victor Lopez
+
 0.12.3 (2017-10-06)
 -------------------
 

@@ -2,6 +2,11 @@
 Changelog for package pal_walking_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* added contact state msg
+* Contributors: Hilario Tome
+
 0.12.3 (2017-10-06)
 -------------------
 
