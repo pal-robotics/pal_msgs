@@ -2,8 +2,8 @@
 Changelog for package pal_walking_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.12.5 (2018-01-16)
+-------------------
 * Merge branch 'erbium-devel' into 'dubnium-devel'
   Mv msgs from walking_msgs to this repo
   See merge request common/pal_msgs!15
