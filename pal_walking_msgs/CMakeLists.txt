@@ -5,7 +5,7 @@ find_package(catkin REQUIRED COMPONENTS geometry_msgs message_generation humanoi
 
 add_message_files(FILES WalkingStatus.msg WalkingStep.msg ContactState.msg SMStatus.msg)
 
-add_service_files(FILES WalkSteps.srv StepOver.srv Sit.srv)
+add_service_files(FILES WalkSteps.srv StepOver.srv Sit.srv MoveHipFeet.srv)
 
 generate_messages(DEPENDENCIES geometry_msgs humanoid_nav_msgs)
 
