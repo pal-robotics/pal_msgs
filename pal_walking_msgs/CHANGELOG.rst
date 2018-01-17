@@ -2,6 +2,11 @@
 Changelog for package pal_walking_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add MoveHipFeet service
+* Contributors: Victor Lopez
+
 0.12.5 (2018-01-16)
 -------------------
 * Merge branch 'erbium-devel' into 'dubnium-devel'
