@@ -1,0 +1,12 @@
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Changelog for package pal_simulation_msgs
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Forthcoming
+-----------
+* Fix pal_simulation_msgs version
+* Merge branch 'as_new_msgs' into 'dubnium-devel'
+  + pal_simulation_msgs, pal_control_msgs/OperationalSpaceGoal
+  See merge request common/pal_msgs!17
+* + pal_simulation_msgs, pal_control_msgs/OperationalSpaceGoal
+* Contributors: Victor Lopez, alexandersherikov
