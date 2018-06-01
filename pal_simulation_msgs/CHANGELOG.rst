@@ -2,8 +2,8 @@
 Changelog for package pal_simulation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.12.7 (2018-06-01)
+-------------------
 * Fix pal_simulation_msgs version
 * Merge branch 'as_new_msgs' into 'dubnium-devel'
   + pal_simulation_msgs, pal_control_msgs/OperationalSpaceGoal
