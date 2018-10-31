@@ -2,6 +2,9 @@
 Changelog for package pal_control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.12.7 (2018-06-01)
 -------------------
 * Merge branch 'as_new_msgs' into 'dubnium-devel'
