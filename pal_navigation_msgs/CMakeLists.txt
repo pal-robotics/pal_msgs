@@ -30,6 +30,7 @@ add_message_files(
     ServiceStatus.msg
     TabletPOI.msg
     VisualLocDB.msg
+    Highways.msg
 )
 
 add_service_files(
