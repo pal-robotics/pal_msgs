@@ -2,8 +2,8 @@
 Changelog for package pal_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.12.8 (2018-10-31)
+-------------------
 * Merge branch 'add-highway-msg' into 'dubnium-devel'
   added highways message
   See merge request common/pal_msgs!18
