@@ -2,6 +2,15 @@
 Changelog for package pal_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'laser_to_image' into 'dubnium-devel'
+  Add LaserImage message
+  See merge request common/pal_msgs!19
+* Use CompressedImage field
+* Add LaserImage message
+* Contributors: Victor Lopez, davidfernandez
+
 0.12.8 (2018-10-31)
 -------------------
 * Merge branch 'add-highway-msg' into 'dubnium-devel'
