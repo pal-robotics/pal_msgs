@@ -2,8 +2,8 @@
 Changelog for package pal_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.12.9 (2018-11-16)
+-------------------
 * Merge branch 'laser_to_image' into 'dubnium-devel'
   Add LaserImage message
   See merge request common/pal_msgs!19
