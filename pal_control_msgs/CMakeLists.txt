@@ -10,8 +10,18 @@ find_package(catkin REQUIRED COMPONENTS
 
 include_directories(include)
 
-add_message_files(DIRECTORY msg FILES ActuatorCurrentLimit.msg OperationalSpaceGoal.msg)
-add_action_files(DIRECTORY action FILES MotionManager.action)
+add_message_files(
+    DIRECTORY msg FILES
+    ActuatorCurrentLimit.msg
+    OperationalSpaceGoal.msg
+    RigidBodyTrajectoryPoint.msg
+    RigidBodyStateTolerance.msg
+)
+add_action_files(
+    DIRECTORY action FILES
+    MotionManager.action
+    RigidBodyTrajectory.action
+)
 
 add_service_files(FILES CurrentLimit.srv)
 
