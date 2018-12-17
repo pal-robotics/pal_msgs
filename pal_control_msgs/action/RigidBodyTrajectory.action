@@ -4,10 +4,6 @@ Header header
 int8    interpolation_type
 
 pal_control_msgs/RigidBodyTrajectoryPoint[]     trajectory
-
-pal_control_msgs/RigidBodyStateTolerance        linear_tolerance
-pal_control_msgs/RigidBodyStateTolerance        angular_tolerance
-duration                                        goal_time_tolerance
 ---
 string      message
 ---

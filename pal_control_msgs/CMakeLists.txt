@@ -15,7 +15,6 @@ add_message_files(
     ActuatorCurrentLimit.msg
     OperationalSpaceGoal.msg
     RigidBodyTrajectoryPoint.msg
-    RigidBodyStateTolerance.msg
 )
 add_action_files(
     DIRECTORY action FILES
