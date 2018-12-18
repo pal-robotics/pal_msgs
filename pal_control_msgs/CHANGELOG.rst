@@ -2,6 +2,15 @@
 Changelog for package pal_control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'as_task_space_traj_renamed' into 'dubnium-devel'
+  As task space traj renamed
+  See merge request common/pal_msgs!21
+* RigidBodyTrajectory: drop tolerances.
+* Rigidbody state trajectory messages & action.
+* Contributors: Victor Lopez, alexandersherikov
+
 0.12.9 (2018-11-16)
 -------------------
 
