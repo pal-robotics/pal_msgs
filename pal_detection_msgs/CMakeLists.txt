@@ -6,6 +6,7 @@ find_package(catkin REQUIRED
     message_generation
     sensor_msgs
     geometry_msgs
+    actionlib_msgs
 )
 
 add_message_files(
@@ -23,6 +24,13 @@ add_message_files(
     RotatedDetection2d.msg
     TexturedObjectDetection.msg
     WaveDetection.msg
+    RecognizedObject.msg
+    RecognizedObjectArray.msg
+)
+
+add_action_files(
+    DIRECTORY action FILES
+    RecognizeObjects.action
 )
 
 add_service_files(
@@ -34,8 +42,9 @@ add_service_files(
     SetDatabase.srv
     StartEnrollment.srv
     StopEnrollment.srv
+    ChangeObjectRecognizerModel.srv
 )
 
-generate_messages(DEPENDENCIES sensor_msgs geometry_msgs)
+generate_messages(DEPENDENCIES sensor_msgs geometry_msgs actionlib_msgs)
 
-catkin_package(CATKIN_DEPENDS message_runtime sensor_msgs geometry_msgs)
+catkin_package(CATKIN_DEPENDS message_runtime sensor_msgs geometry_msgs actionlib_msgs)
