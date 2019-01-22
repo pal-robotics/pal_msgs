@@ -2,6 +2,14 @@
 Changelog for package pal_detection_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'object_recognition_msgs' into 'dubnium-devel'
+  added object_recognition msgs for inference_server
+  See merge request common/pal_msgs!22
+* added object_recognition msgs for inference_server
+* Contributors: Sai Kishor Kothakota, Victor Lopez
+
 0.12.10 (2018-12-18)
 --------------------
 

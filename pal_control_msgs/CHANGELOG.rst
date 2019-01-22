@@ -2,6 +2,9 @@
 Changelog for package pal_control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.12.10 (2018-12-18)
 --------------------
 * Merge branch 'as_task_space_traj_renamed' into 'dubnium-devel'
