@@ -52,6 +52,7 @@ add_service_files(
     SetPOI.srv
     SetSubMapFloor.srv
     VisualLocRecognize.srv
+    RenameMap.srv
 )
 
 generate_messages(DEPENDENCIES nav_msgs actionlib_msgs sensor_msgs geometry_msgs)
