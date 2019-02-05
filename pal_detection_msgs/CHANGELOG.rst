@@ -2,6 +2,9 @@
 Changelog for package pal_detection_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.12.11 (2019-01-22)
 --------------------
 * Merge branch 'object_recognition_msgs' into 'dubnium-devel'

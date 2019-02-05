@@ -2,6 +2,14 @@
 Changelog for package pal_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'rename_map_service' into 'dubnium-devel'
+  Create Rename map service
+  See merge request common/pal_msgs!23
+* Create Rename map service
+* Contributors: Victor Lopez, davidfernandez
+
 0.12.11 (2019-01-22)
 --------------------
 
