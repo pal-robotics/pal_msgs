@@ -2,6 +2,15 @@
 Changelog for package pal_common_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'add-string-srvs' into 'dubnium-devel'
+  added String services
+  See merge request common/pal_msgs!24
+* added success field in get return
+* addes String services
+* Contributors: Procópio Stein, Victor Lopez
+
 0.12.12 (2019-02-05)
 --------------------
 
