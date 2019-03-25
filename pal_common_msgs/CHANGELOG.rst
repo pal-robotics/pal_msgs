@@ -2,8 +2,8 @@
 Changelog for package pal_common_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.12.13 (2019-03-25)
+--------------------
 * Merge branch 'add-string-srvs' into 'dubnium-devel'
   added String services
   See merge request common/pal_msgs!24
