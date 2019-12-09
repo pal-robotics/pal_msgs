@@ -29,6 +29,8 @@ add_message_files(
     EnablingSoundLocalisation.msg
     I18nText.msg
     I18nArgument.msg
+    Input.msg
+    InputArgument.msg
     TTSstate.msg
     TtsText.msg
     TtsMark.msg
