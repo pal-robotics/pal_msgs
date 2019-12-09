@@ -2,8 +2,8 @@
 Changelog for package pal_interaction_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.12.14 (2019-12-09)
+--------------------
 * Add Input and InputArgument msg
 * Contributors: Victor Lopez
 
