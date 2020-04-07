@@ -2,6 +2,14 @@
 Changelog for package pal_control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'swing_interp' into 'dubnium-devel'
+  Modify OperationalSpaceGoal to allow velocity and acceleration
+  See merge request common/pal_msgs!26
+* Modify OperationalSpaceGoal to allow velocity and acceleration
+* Contributors: Adrià Roig, victor
+
 0.12.14 (2019-12-09)
 --------------------
 

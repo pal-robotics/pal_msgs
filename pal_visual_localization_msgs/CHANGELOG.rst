@@ -2,6 +2,9 @@
 Changelog for package pal_visual_localization_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.12.14 (2019-12-09)
 --------------------
 
