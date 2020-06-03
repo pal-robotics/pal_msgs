@@ -10,6 +10,8 @@
 
   <build_depend>message_generation</build_depend>
   <depend>std_msgs</depend>
+  <depend>pal_interaction_msgs</depend>
+  <depend>actionlib_msgs</depend>
 
   <exec_depend>message_runtime</exec_depend>
 

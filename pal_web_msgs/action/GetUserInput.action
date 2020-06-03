@@ -1,0 +1,10 @@
+pal_web_msgs/WebGoTo web_go_to
+pal_interaction_msgs/TtsGoal question_tts
+string[] valid_asr_inputs # empty is no ASR, can be regex
+string asr_language # empty is current default
+duration asr_timeout
+bool retry_asr
+pal_interaction_msgs/TtsGoal retry_tts # If retrying, say this setence
+---------------------------
+pal_interaction_msgs/Input input
+---------------------------
