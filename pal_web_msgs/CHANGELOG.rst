@@ -2,6 +2,14 @@
 Changelog for package pal_web_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'user-input-update' into 'dubnium-devel'
+  User input update
+  See merge request common/pal_msgs!27
+* dd GetUserInput action
+* Contributors: Victor Lopez, victor
+
 0.13.0 (2020-04-07)
 -------------------
 

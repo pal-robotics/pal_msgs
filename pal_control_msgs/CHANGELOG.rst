@@ -2,6 +2,9 @@
 Changelog for package pal_control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.13.0 (2020-04-07)
 -------------------
 * Merge branch 'swing_interp' into 'dubnium-devel'
