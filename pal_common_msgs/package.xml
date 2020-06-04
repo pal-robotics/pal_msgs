@@ -1,6 +1,6 @@
 <package>
   <name>pal_common_msgs</name>
-  <version>0.13.0</version>
+  <version>0.13.1</version>
   <description>
     This package defines generic messages used by PAL nodes.</description>
   <maintainer email="victor.lopez@pal-robotics.com">Victor Lopez</maintainer>

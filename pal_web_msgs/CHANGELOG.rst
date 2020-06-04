@@ -2,8 +2,8 @@
 Changelog for package pal_web_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.13.1 (2020-06-04)
+-------------------
 * Merge branch 'user-input-update' into 'dubnium-devel'
   User input update
   See merge request common/pal_msgs!27
