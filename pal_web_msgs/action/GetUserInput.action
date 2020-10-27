@@ -1,5 +1,5 @@
-pal_web_msgs/WebGoTo web_go_to
-pal_interaction_msgs/TtsGoal question_tts
+pal_web_msgs/WebGoTo web_go_to # Web to display for requesting feedback
+pal_interaction_msgs/TtsGoal question_tts # TTS question, asked before waiting for feedback
 string[] valid_asr_inputs # empty is no ASR, can be regex
 string asr_language # empty is current default
 duration asr_timeout
