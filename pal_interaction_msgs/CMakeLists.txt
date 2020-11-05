@@ -19,54 +19,52 @@ set(ACTION_FILES
 
 # http://answers.ros.org/question/230877/optionally-build-a-package-with-catkin/
 if( CATKIN_DEVEL_PREFIX OR catkin_FOUND OR CATKIN_BUILD_BINARY_PACKAGE)
-find_package(catkin REQUIRED
-  COMPONENTS
-    message_generation
-    std_msgs
-    actionlib_msgs
-)
+  find_package(catkin REQUIRED
+    COMPONENTS
+      message_generation
+      std_msgs
+      actionlib_msgs
+  )
 
+  add_message_files(
+    DIRECTORY msg
+    FILES
+      ${MSG_FILES}
+      # Messages below are deprecated in ROS2
+      actiontag.msg 
+      asrresult.msg
+      asrupdate.msg
+      ASRActivation.msg
+      ASREvent.msg
+      ASRLangModelMngmt.msg
+      ASRLanguage.msg
+      ASRSrvRequest.msg
+      ASRSrvResponse.msg
+      ASRStatus.msg
+      audiosignal.msg
+      TTSstate.msg
+      VoiceActivity.msg)
 
-add_message_files(
-  DIRECTORY msg
-  FILES
-    ${MSG_FILES}
-    # Messages below are deprecated in ROS2
-    actiontag.msg 
-    asrresult.msg
-    asrupdate.msg
-    ASRActivation.msg
-    ASREvent.msg
-    ASRLangModelMngmt.msg
-    ASRLanguage.msg
-    ASRSrvRequest.msg
-    ASRSrvResponse.msg
-    ASRStatus.msg
-    audiosignal.msg
-    TTSstate.msg
-    VoiceActivity.msg
-    )
+  add_action_files(
+    DIRECTORY action
+    FILES
+    ${ACTION_FILES}
+    Tts.action # speakerName must be changed to speaker_name or provide mappings rules
+    # Files below are deprecated in ROS2
+    ASRFile.action
+    Sound.action
+  )
 
-add_action_files(
-  DIRECTORY action
-  FILES
-  ${ACTION_FILES}
-  Tts.action # speakerName must be changed to speaker_name or provide mappings rules
-  # Files below are deprecated in ROS2
-  ASRFile.action
-  Sound.action
-)
+  # All these services are deprecated in ROS2
+  add_service_files(
+    DIRECTORY srv
+    FILES
+      recognizerService.srv
+  )
 
-# All these services are deprecated in ROS2
-add_service_files(
-  DIRECTORY srv
-  FILES
-    recognizerService.srv
-)
+  generate_messages(DEPENDENCIES std_msgs actionlib_msgs)
 
-generate_messages(DEPENDENCIES std_msgs actionlib_msgs)
-
-catkin_package(CATKIN_DEPENDS message_runtime)
+  catkin_package(CATKIN_DEPENDS message_runtime)
 else()
   cmake_minimum_required(VERSION 3.12)
   find_package(ament_cmake_auto REQUIRED)
