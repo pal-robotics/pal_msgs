@@ -61,9 +61,7 @@ add_action_files(
 add_service_files(
   DIRECTORY srv
   FILES
-    ASRService.srv
     recognizerService.srv
-    SoundLocalisationService.srv
 )
 
 generate_messages(DEPENDENCIES std_msgs actionlib_msgs)
