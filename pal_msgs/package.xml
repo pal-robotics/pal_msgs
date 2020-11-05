@@ -10,7 +10,6 @@
 
   <buildtool_depend>catkin</buildtool_depend>
 
-  <run_depend>pal_behaviour_msgs</run_depend>
   <run_depend>pal_control_msgs</run_depend>
   <run_depend>pal_detection_msgs</run_depend>
   <run_depend>pal_device_msgs</run_depend>
