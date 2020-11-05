@@ -6,7 +6,7 @@ string file
 string lang_id
 # grammar name
 string grammar
----------------------------
+---
 ##result definition
 # same path as specified in goal variable file
 string file
@@ -14,7 +14,7 @@ string file
 string msg
 # vector of results
 asrresult[] recognised_utterances
----------------------------
+---
 #feedback definition
 # At the inmediate time an utterance is recognised
 # it is published here.

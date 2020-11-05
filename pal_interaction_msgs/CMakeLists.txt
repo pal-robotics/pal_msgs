@@ -1,6 +1,24 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.5)
 project(pal_interaction_msgs)
 
+set(MSG_FILES
+    AudioDeviceDescription.msg
+    AudioPlayerState.msg
+    DirectionOfArrival.msg
+    EnablingSoundLocalisation.msg
+    I18nText.msg
+    I18nArgument.msg
+    Input.msg
+    InputArgument.msg
+    TtsText.msg
+    TtsMark.msg
+    WebGuiEvent.msg)
+
+set(ACTION_FILES
+    AudioPlay.action)
+
+# http://answers.ros.org/question/230877/optionally-build-a-package-with-catkin/
+if( CATKIN_DEVEL_PREFIX OR catkin_FOUND OR CATKIN_BUILD_BINARY_PACKAGE)
 find_package(catkin REQUIRED
   COMPONENTS
     message_generation
@@ -12,41 +30,34 @@ find_package(catkin REQUIRED
 add_message_files(
   DIRECTORY msg
   FILES
-    actiontag.msg
+    ${MSG_FILES}
+    # Messages below are deprecated in ROS2
+    actiontag.msg 
+    asrresult.msg
+    asrupdate.msg
     ASRActivation.msg
     ASREvent.msg
     ASRLangModelMngmt.msg
     ASRLanguage.msg
-    asrresult.msg
     ASRSrvRequest.msg
     ASRSrvResponse.msg
     ASRStatus.msg
-    asrupdate.msg
-    AudioDeviceDescription.msg
-    AudioPlayerState.msg
     audiosignal.msg
-    DirectionOfArrival.msg
-    EnablingSoundLocalisation.msg
-    I18nText.msg
-    I18nArgument.msg
-    Input.msg
-    InputArgument.msg
     TTSstate.msg
-    TtsText.msg
-    TtsMark.msg
     VoiceActivity.msg
-    WebGuiEvent.msg
-)
+    )
 
 add_action_files(
   DIRECTORY action
   FILES
-    ASRFile.action
-    AudioPlay.action
-    Sound.action
-    Tts.action
+  ${ACTION_FILES}
+  Tts.action # speakerName must be changed to speaker_name or provide mappings rules
+  # Files below are deprecated in ROS2
+  ASRFile.action
+  Sound.action
 )
 
+# All these services are deprecated in ROS2
 add_service_files(
   DIRECTORY srv
   FILES
@@ -58,3 +69,19 @@ add_service_files(
 generate_messages(DEPENDENCIES std_msgs actionlib_msgs)
 
 catkin_package(CATKIN_DEPENDS message_runtime)
+else()
+  cmake_minimum_required(VERSION 3.12)
+  find_package(ament_cmake_auto REQUIRED)
+  ament_auto_find_build_dependencies()
+  
+  find_package(rosidl_default_generators REQUIRED)
+
+  # Prepend path to files
+  list(TRANSFORM MSG_FILES PREPEND "msg/")
+  list(TRANSFORM ACTION_FILES PREPEND "action/")
+
+  rosidl_generate_interfaces(${PROJECT_NAME}
+	  ${MSG_FILES}
+	  ${ACTION_FILES})
+
+endif()

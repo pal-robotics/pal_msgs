@@ -5,5 +5,5 @@ string file
 #Priority of the file play, 0 is lowest and 100 is highest priority
 #Lower priority goals might be rejected/aborted in presence of a higher priority
 uint8 priority
----------------------------
----------------------------
+---
+---
