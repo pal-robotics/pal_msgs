@@ -2,8 +2,8 @@
 Changelog for package pal_web_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.13.2 (2020-11-11)
+-------------------
 * Merge branch 'wait_for_interaction' into 'dubnium-devel'
   Wait for interaction before ASR
   See merge request common/pal_msgs!29
