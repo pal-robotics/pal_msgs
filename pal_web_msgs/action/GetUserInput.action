@@ -5,6 +5,7 @@ string asr_language # empty is current default
 duration asr_timeout
 bool retry_asr
 pal_interaction_msgs/TtsGoal retry_tts # If retrying, say this setence
+bool wait_for_interaction # If true, wait for an interaction before starting the ASR
 ---------------------------
 pal_interaction_msgs/Input input
 ---------------------------
