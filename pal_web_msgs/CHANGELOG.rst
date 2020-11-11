@@ -2,6 +2,15 @@
 Changelog for package pal_web_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'wait_for_interaction' into 'dubnium-devel'
+  Wait for interaction before ASR
+  See merge request common/pal_msgs!29
+* Wait for interaction before ASR
+* Better documentation for GetUserInput
+* Contributors: Victor Lopez, davidfernandez, victor
+
 0.13.1 (2020-06-04)
 -------------------
 * Merge branch 'user-input-update' into 'dubnium-devel'
