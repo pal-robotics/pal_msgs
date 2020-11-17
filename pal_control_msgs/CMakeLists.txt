@@ -3,6 +3,8 @@ project(pal_control_msgs)
 
 set(MSG_FILES
       ActuatorCurrentLimit.msg
+      OperationalSpaceGoal.msg
+      RigidBodyTrajectoryPoint.msg
       )
 
 set(ACTION_FILES
@@ -11,6 +13,11 @@ set(ACTION_FILES
 # http://answers.ros.org/question/230877/optionally-build-a-package-with-catkin/
 if( CATKIN_DEVEL_PREFIX OR catkin_FOUND OR CATKIN_BUILD_BINARY_PACKAGE)
 
+  # Diferent definition in ros1 and ros2
+  execute_process(COMMAND cp msg/OperationalSpaceGoal.msg.ros1 msg/OperationalSpaceGoal.msg
+	WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+  execute_process(COMMAND cp msg/RigidBodyTrajectoryPoint.msg.ros1 msg/RigidBodyTrajectoryPoint.msg
+	WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
   find_package(catkin REQUIRED 
     COMPONENTS
       message_generation
@@ -22,8 +29,6 @@ if( CATKIN_DEVEL_PREFIX OR catkin_FOUND OR CATKIN_BUILD_BINARY_PACKAGE)
       DIRECTORY msg
       FILES
         ${MSG_FILES}
-	RigidBodyTrajectoryPoint.msg
-        OperationalSpaceGoal.msg
   )
 
   add_action_files(
@@ -48,14 +53,19 @@ else()
   
   find_package(rosidl_default_generators REQUIRED)
 
+  # Diferent definition in ros1 and ros2
+  execute_process(COMMAND cp msg/OperationalSpaceGoal.msg.ros2 msg/OperationalSpaceGoal.msg
+	WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+  execute_process(COMMAND cp msg/RigidBodyTrajectoryPoint.msg.ros2 msg/RigidBodyTrajectoryPoint.msg
+	WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR})
+
   # Prepend path to files
   list(TRANSFORM MSG_FILES PREPEND "msg/")
   list(TRANSFORM ACTION_FILES PREPEND "action/")
 
   rosidl_generate_interfaces(${PROJECT_NAME}
 	  ${MSG_FILES}
-	  msg_ros2/RigidBodyTrajectoryPoint.msg
-	  msg_ros2/OperationalSpaceGoal.msg
 	  ${ACTION_FILES})
 
+  ament_auto_package()
 endif()
