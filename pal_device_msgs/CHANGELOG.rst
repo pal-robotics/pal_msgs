@@ -2,6 +2,14 @@
 Changelog for package pal_device_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'shutdown_generic' into 'dubnium-devel'
+  add ShutdownAndWakeUpRobot srv
+  See merge request common/pal_msgs!32
+* add ShutdownAndWakeUpRobot srv
+* Contributors: Sergio Ramos, victor
+
 0.13.2 (2020-11-11)
 -------------------
 
