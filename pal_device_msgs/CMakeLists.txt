@@ -24,6 +24,7 @@ add_service_files(
     DIRECTORY srv
     FILES
         CancelEffect.srv
+        ShutdownAndWakeUpRobot.srv
         TimedBlinkEffect.srv
         TimedColourEffect.srv
         TimedFadeEffect.srv
