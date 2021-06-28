@@ -2,6 +2,15 @@
 Changelog for package pal_web_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'web-msgs-update' into 'dubnium-devel'
+  Add touch page web msgs
+  See merge request common/pal_msgs!35
+* remove unecessary action
+* web msgs add touch page
+* Contributors: Sara Cooper, victor
+
 0.13.3 (2021-03-03)
 -------------------
 
