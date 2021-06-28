@@ -20,7 +20,6 @@ add_action_files(
   DIRECTORY action
   FILES
     GetUserInput.action
-    GoToWeb.action
 )
 #add_service_files(
   #DIRECTORY srv
