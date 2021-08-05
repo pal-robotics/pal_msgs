@@ -2,6 +2,17 @@
 Changelog for package pal_detection_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'add_thermal_camera_face_detection_msgs' into 'dubnium-devel'
+  Add thermal camera face detections
+  See merge request common/pal_msgs!33
+* Removed unnecessary field
+* Use standard msgs
+* add msgs to CMakeLists
+* Add thermal camera face detections
+* Contributors: cescfolch, davidfernandez, victorgonzalez
+
 0.13.4 (2021-06-28)
 -------------------
 
