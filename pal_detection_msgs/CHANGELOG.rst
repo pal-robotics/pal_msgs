@@ -2,8 +2,8 @@
 Changelog for package pal_detection_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.13.5 (2021-08-05)
+-------------------
 * Merge branch 'add_thermal_camera_face_detection_msgs' into 'dubnium-devel'
   Add thermal camera face detections
   See merge request common/pal_msgs!33
