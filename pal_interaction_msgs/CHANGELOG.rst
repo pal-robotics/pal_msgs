@@ -2,8 +2,8 @@
 Changelog for package pal_interaction_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.13.6 (2021-10-14)
+-------------------
 * Add GetSpeechDuration service
 * Contributors: Victor Lopez
 
