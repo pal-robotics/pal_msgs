@@ -51,6 +51,7 @@ add_service_files(
   DIRECTORY srv
   FILES
     ASRService.srv
+    GetSpeechDuration.srv
     recognizerService.srv
     SoundLocalisationService.srv
 )
