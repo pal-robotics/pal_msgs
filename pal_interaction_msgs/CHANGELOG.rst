@@ -2,6 +2,11 @@
 Changelog for package pal_interaction_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Change getSpeech duration to return list of word durations
+* Contributors: Victor Lopez
+
 0.13.6 (2021-10-14)
 -------------------
 * Add GetSpeechDuration service
