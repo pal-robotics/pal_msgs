@@ -5,4 +5,5 @@ I18nText text
 TtsText rawtext
 ---
 bool ok
-duration duration
+string[] words
+duration[] word_durations
