@@ -19,6 +19,8 @@ add_message_files(
     FaceThermalDetections.msg
     Gesture.msg
     LegDetections.msg
+    Obstacle2d.msg
+    Obstacle2dArray.msg
     PersonDetection.msg
     PersonDetections.msg
     RecognizedActions.msg
