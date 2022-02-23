@@ -39,6 +39,7 @@ add_service_files(
   FILES
     Acknowledgment.srv
     ChangeBuilding.srv
+    ChangeMap.srv
     DisableEmergency.srv
     FinalApproachPose.srv
     ListMaps.srv
