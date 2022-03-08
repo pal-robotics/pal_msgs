@@ -55,6 +55,7 @@ add_service_files(
     SetMapConfiguration.srv
     SetPOI.srv
     SetSubMapFloor.srv
+    SyncMap.srv
     VisualLocRecognize.srv
     RenameMap.srv
 )
