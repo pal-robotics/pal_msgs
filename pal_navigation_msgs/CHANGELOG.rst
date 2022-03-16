@@ -2,6 +2,9 @@
 Changelog for package pal_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.13.8 (2022-02-23)
 -------------------
 * Merge branch 'layered_costmap' into 'dubnium-devel'

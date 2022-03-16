@@ -2,6 +2,15 @@
 Changelog for package pal_detection_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'obstacle-detector-devel' into 'dubnium-devel'
+  Obstacles msgs for dynamic obstacle detector
+  See merge request common/pal_msgs!38
+* added msgs files to cmakelists
+* added obstacles msgs
+* Contributors: Jordan Palacios, josegarcia
+
 0.13.8 (2022-02-23)
 -------------------
 
