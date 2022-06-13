@@ -8,6 +8,7 @@ include_directories(include)
 add_action_files(
   DIRECTORY action
   FILES
+    ExecuteParking.action
     JoyPriority.action
     JoyTurbo.action
     GoToPOI.action
