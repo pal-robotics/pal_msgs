@@ -2,6 +2,14 @@
 Changelog for package pal_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'release-dock-sm' into 'dubnium-devel'
+  move ExecuteParking action into pal_navigation_msgs
+  See merge request common/pal_msgs!39
+* move ExecuteParking action into pal_navigation_msgs
+* Contributors: Jordan Palacios, antoniobrandi
+
 0.13.9 (2022-03-16)
 -------------------
 

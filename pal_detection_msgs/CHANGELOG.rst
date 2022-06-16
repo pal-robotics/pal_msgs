@@ -2,6 +2,9 @@
 Changelog for package pal_detection_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.13.9 (2022-03-16)
 -------------------
 * Merge branch 'obstacle-detector-devel' into 'dubnium-devel'
