@@ -14,6 +14,7 @@ add_message_files(
   DIRECTORY msg
   FILES
   WebGoTo.msg
+  Subtitles.msg
 )
 
 add_action_files(
