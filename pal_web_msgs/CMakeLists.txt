@@ -15,6 +15,7 @@ add_message_files(
   FILES
   WebGoTo.msg
   Subtitles.msg
+  TouchWeb.msg
 )
 
 add_action_files(
