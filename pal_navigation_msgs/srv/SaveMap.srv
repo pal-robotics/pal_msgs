@@ -1,6 +1,7 @@
 ## Action for saving the current map (while in mapping mode).
 
 string directory  # output directory, optional
+string topic      # map topic, optional
 ---
 bool success
 string name
