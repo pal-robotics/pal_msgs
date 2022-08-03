@@ -1,7 +1,0 @@
-# Request
-string fleet_namespace
-string map_namespace
-string map_topic
----
-# Response
-bool success
