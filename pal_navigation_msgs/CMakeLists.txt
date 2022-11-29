@@ -26,6 +26,7 @@ add_message_files(
     NavigationStatus.msg
     NiceMapTransformation.msg
     POI.msg
+    POIGroup.msg
     PolarReading.msg
     PolarReadingScan.msg
     ServiceStatus.msg
@@ -41,6 +42,7 @@ add_service_files(
     Acknowledgment.srv
     ChangeBuilding.srv
     ChangeMap.srv
+    ChangeSyncMap.srv
     DisableEmergency.srv
     FinalApproachPose.srv
     ListMaps.srv
