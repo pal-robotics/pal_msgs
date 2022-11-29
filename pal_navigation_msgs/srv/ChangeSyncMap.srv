@@ -1,0 +1,8 @@
+# Interface for changing the current map
+# Request
+nav_msgs/OccupancyGrid map
+string map_name
+string[] sources
+---
+# Response
+bool success
