@@ -2,8 +2,8 @@
 Changelog for package pal_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.13.11 (2022-11-29)
+--------------------
 * Merge branch 'feat/add-msgs' into 'dubnium-devel'
   added new messages for map manager
   See merge request common/pal_msgs!44
