@@ -2,6 +2,9 @@
 Changelog for package pal_simulation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.13.10 (2022-06-16)
 --------------------
 
