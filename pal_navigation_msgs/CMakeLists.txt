@@ -50,6 +50,7 @@ add_service_files(
     GetNodes.srv
     GetPOI.srv
     GetSubMap.srv
+    RegisterSync.srv
     SafetyZone.srv
     SaveMap.srv
     SetMapConfiguration.srv
