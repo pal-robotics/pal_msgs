@@ -2,6 +2,14 @@
 Changelog for package pal_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'feat/map-manager' into 'dubnium-devel'
+  Update map configuration msgs
+  See merge request common/pal_msgs!43
+* Update map configuration msgs
+* Contributors: Jordan Palacios, antoniobrandi
+
 0.13.11 (2022-11-29)
 --------------------
 * Merge branch 'feat/add-msgs' into 'dubnium-devel'
