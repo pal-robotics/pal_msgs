@@ -1,16 +1,25 @@
 #Configuration of a map
 int32 numberOfSubMaps
 
+#Highways of the map
+pal_navigation_msgs/Highways[] highways
+
 #Points of interest of the map
 pal_navigation_msgs/POI pois
 
 #Virtual obstacles of the map
 pal_navigation_msgs/POI vo
 
-
 #Zones of interest of the map
 pal_navigation_msgs/POI zoi
 
+#Ramps of the map
+pal_navigation_msgs/POI ramps
+
+#POI Groups of the map
+pal_navigation_msgs/POIGroup[] poigroups
+
+# Deprecated
 pal_navigation_msgs/VisualLocDB visualLocDb
 
 #Real (ugly) map 
