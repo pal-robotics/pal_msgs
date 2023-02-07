@@ -6,12 +6,12 @@ LedGroup leds
 std_msgs/ColorRGBA color
 
 #Duration of the effect, when the time is over the previous effect will be restored. 0 will make it display forever
-duration effectDuration
+builtin_interfaces/Duration effect_duration
 
 #priority of the effect, 0 is no priority, 255 is max priority
 uint8 priority
 
 ---
 #Id of the effect, used to cancel an effect
-uint32 effectId
+uint32 effect_id
 # True if no errors

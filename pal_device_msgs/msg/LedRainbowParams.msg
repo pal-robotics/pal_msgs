@@ -1,2 +1,2 @@
 # Time to perform rainbow
-duration transition_duration
+builtin_interfaces/Duration transition_duration

@@ -1,40 +1,36 @@
-cmake_minimum_required(VERSION 2.8.3)
+cmake_minimum_required(VERSION 3.5)
 project(pal_device_msgs)
 
-find_package(catkin REQUIRED COMPONENTS message_generation std_msgs actionlib_msgs)
+find_package(action_msgs REQUIRED)
+find_package(ament_cmake REQUIRED)
+find_package(builtin_interfaces REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
+find_package(std_msgs REQUIRED)
 
-add_message_files(
-  FILES
-    BatteryState.msg
-    Bumper.msg
-    LedGroup.msg
-    LedEffectParams.msg
-    LedFixedColorParams.msg
-    LedRainbowParams.msg
-    LedFadeParams.msg
-    LedBlinkParams.msg
-    LedProgressParams.msg
-    LedFlowParams.msg
-    LedDataArrayParams.msg
-    LedEffectViaTopicParams.msg
-    LedPreProgrammedParams.msg
+rosidl_generate_interfaces(${PROJECT_NAME}
+  "action/DoTimedLedEffect.action"
+  "msg/BatteryState.msg"
+  "msg/Bumper.msg"
+  "msg/LedGroup.msg"
+  "msg/LedEffectParams.msg"
+  "msg/LedFixedColorParams.msg"
+  "msg/LedRainbowParams.msg"
+  "msg/LedFadeParams.msg"
+  "msg/LedBlinkParams.msg"
+  "msg/LedProgressParams.msg"
+  "msg/LedFlowParams.msg"
+  "msg/LedDataArrayParams.msg"
+  "msg/LedEffectViaTopicParams.msg"
+  "msg/LedPreProgrammedParams.msg"
+  "srv/CancelEffect.srv"
+  "srv/ShutdownAndWakeUpRobot.srv"
+  "srv/TimedBlinkEffect.srv"
+  "srv/TimedColourEffect.srv"
+  "srv/TimedFadeEffect.srv"
+  DEPENDENCIES builtin_interfaces std_msgs
+  ADD_LINTER_TESTS
 )
 
-add_service_files(
-    DIRECTORY srv
-    FILES
-        CancelEffect.srv
-        ShutdownAndWakeUpRobot.srv
-        TimedBlinkEffect.srv
-        TimedColourEffect.srv
-        TimedFadeEffect.srv
-)
+ament_export_dependencies(rosidl_default_runtime)
 
-add_action_files(
-    FILES DoTimedLedEffect.action
-    )
-
-
-generate_messages(DEPENDENCIES std_msgs actionlib_msgs)
-
-catkin_package(CATKIN_DEPENDS message_runtime std_msgs actionlib_msgs)
+ament_package()

@@ -6,4 +6,3 @@ std_msgs/ColorRGBA second_color
 float32 percentage
 #Offset to begin painting the first color
 float32 led_offset 
-

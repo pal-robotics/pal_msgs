@@ -8,7 +8,7 @@ uint8 PREPROGRAMMED_EFFECT=6
 uint8 EFFECT_VIA_TOPIC=7
 uint8 DATA_ARRAY=8
 
-uint8 effectType
+uint8 effect_type
 
 # RGBA of color, alpha will be used as intensity if supported by the led
 pal_device_msgs/LedFixedColorParams fixed_color

@@ -6,4 +6,3 @@ std_msgs/ColorRGBA second_color
 float32 percentage
 # Flow velocity
 float32 velocity
-

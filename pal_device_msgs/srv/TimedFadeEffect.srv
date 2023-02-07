@@ -3,24 +3,24 @@
 LedGroup leds
 
 # RGBA of color, transparency is not available in leds, so alpha will be ignored
-std_msgs/ColorRGBA firstColor
-std_msgs/ColorRGBA secondColor
+std_msgs/ColorRGBA first_color
+std_msgs/ColorRGBA second_color
 
 #Duration of the transition from one color to the other
-duration colorChangeDuration
+builtin_interfaces/Duration color_change_duration
 
-#Perform a fade when going from secondColor to firstColor
-bool reverseFade
+#Perform a fade when going from secondColor to first_color
+bool reverse_fade
 
 #Duration of the effect, when the time is over the previous effect will be restored. 0 will make it display forever
-duration effectDuration
+builtin_interfaces/Duration effect_duration
 
 #priority of the effect, 0 is no priority, 255 is max priority
 uint8 priority
 
 ---
 #Id of the effect, used to cancel an effect
-uint32 effectId
+uint32 effect_id
 
 # True if no errors
 
