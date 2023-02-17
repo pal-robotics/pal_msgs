@@ -2,8 +2,8 @@
 Changelog for package pal_device_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.0.0 (2023-02-17)
+------------------
 * Porting pal_device_msgs to ROS2
 * Ignore all packages
 * Contributors: Jordan Palacios
