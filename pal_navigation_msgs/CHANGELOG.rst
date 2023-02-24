@@ -2,6 +2,21 @@
 Changelog for package pal_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'feat/share-mmap' into 'dubnium-devel'
+  Share mmap
+  See merge request common/pal_msgs!45
+* added map name to sync msg
+* share full mmap
+* removed map_topic option from SaveMap message
+* Removed SyncMap service
+* Added optional topic to save map service
+* Added fleet namespace for the pal map manager
+* bidirectional sync between map servers
+* Sync map service message
+* Contributors: Antonio Brandi, Jordan Palacios, antoniobrandi
+
 0.14.0 (2023-01-10)
 -------------------
 * Merge branch 'feat/map-manager' into 'dubnium-devel'
