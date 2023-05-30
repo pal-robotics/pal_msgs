@@ -2,6 +2,11 @@
 Changelog for package pal_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* adding pod to map configuration
+* Contributors: antoniobrandi
+
 0.14.1 (2023-02-24)
 -------------------
 * Merge branch 'feat/share-mmap' into 'dubnium-devel'

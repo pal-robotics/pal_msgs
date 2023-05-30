@@ -2,6 +2,9 @@
 Changelog for package pal_video_recording_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.14.1 (2023-02-24)
 -------------------
 
