@@ -4,6 +4,9 @@ int32 numberOfSubMaps
 #Highways of the map
 pal_navigation_msgs/Highways[] highways
 
+#Points of direction of the map
+pal_navigation_msgs/POI pods
+
 #Points of interest of the map
 pal_navigation_msgs/POI pois
 
