@@ -9,6 +9,7 @@ add_action_files(
   DIRECTORY action
   FILES
     ExecuteParking.action
+    FollowWaypoints.action
     JoyPriority.action
     JoyTurbo.action
     GoToPOI.action
@@ -23,6 +24,7 @@ add_message_files(
     EulerAngles.msg
     EulerAnglesStamped.msg
     MapConfiguration.msg
+    MissedWaypoint.msg
     NavigationStatus.msg
     NiceMapTransformation.msg
     POI.msg
