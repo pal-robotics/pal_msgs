@@ -36,6 +36,7 @@ add_message_files(
     VisualLocDB.msg
     Highways.msg
     LaserImage.msg
+    Waypoint.msg
 )
 
 add_service_files(
