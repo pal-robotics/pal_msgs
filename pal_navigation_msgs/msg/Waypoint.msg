@@ -6,5 +6,5 @@ uint32 ROTATE=2
 uint32 DOCK=3
 uint32 UNDOCK=4
 
-uint32 action
+uint32[] actions
 geometry_msgs/PoseStamped pose
