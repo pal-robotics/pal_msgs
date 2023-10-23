@@ -2,6 +2,17 @@
 Changelog for package pal_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'feat/waypoint-follower' into 'dubnium-devel'
+  Waypoint follower
+  See merge request common/pal_msgs!53
+* changing bt at runtime
+* allowing multiple actions at waypoint
+* added poses messages with custom action
+* waypoint follower messages
+* Contributors: Jordan Palacios, antoniobrandi
+
 0.15.0 (2023-05-30)
 -------------------
 * adding pod to map configuration
