@@ -1,6 +1,7 @@
 string touch_web
+string touch_project
 string parameters
 
-# Otional fields for error messages
+# Optional fields for error messages
 bool success
 string message
