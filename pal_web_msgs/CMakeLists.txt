@@ -14,6 +14,8 @@ add_message_files(
   DIRECTORY msg
   FILES
   WebGoTo.msg
+  Subtitles.msg
+  TouchWeb.msg
 )
 
 add_action_files(
@@ -21,11 +23,12 @@ add_action_files(
   FILES
     GetUserInput.action
 )
-#add_service_files(
-  #DIRECTORY srv
-  #FILES
-    #.srv
-#)
+
+add_service_files(
+  DIRECTORY srv
+  FILES
+    GetLastTouchWeb.srv
+)
 
 generate_messages(DEPENDENCIES std_msgs actionlib_msgs pal_interaction_msgs)
 
