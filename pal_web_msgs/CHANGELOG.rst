@@ -2,6 +2,18 @@
 Changelog for package pal_web_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'subtitles_overlay' into 'dubnium-devel'
+  Add Subtitles message
+  See merge request common/pal_msgs!42
+* add last touch web srv msg
+* add touch project info
+* Add TOUCH_PROJECT type
+* Add state info for TouchWeb
+* Add Subtitles message
+* Contributors: Jordan Palacios, davidfernandez, harshdeepsingh
+
 0.15.1 (2023-10-23)
 -------------------
 

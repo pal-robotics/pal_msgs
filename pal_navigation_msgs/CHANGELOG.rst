@@ -2,6 +2,9 @@
 Changelog for package pal_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.15.1 (2023-10-23)
 -------------------
 * Merge branch 'feat/waypoint-follower' into 'dubnium-devel'
