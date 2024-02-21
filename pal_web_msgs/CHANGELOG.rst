@@ -2,8 +2,8 @@
 Changelog for package pal_web_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.16.0 (2024-02-21)
+-------------------
 * Merge branch 'subtitles_overlay' into 'dubnium-devel'
   Add Subtitles message
   See merge request common/pal_msgs!42
