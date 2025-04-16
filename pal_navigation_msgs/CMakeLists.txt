@@ -53,12 +53,14 @@ add_service_files(
     GetNodes.srv
     GetPOI.srv
     GetSubMap.srv
+    GetWaypoint.srv
     RegisterSync.srv
     SafetyZone.srv
     SaveMap.srv
     SetMapConfiguration.srv
     SetPOI.srv
     SetSubMapFloor.srv
+    TransformMapConfiguration.srv
     VisualLocRecognize.srv
     RenameMap.srv
 )
