@@ -1,0 +1,5 @@
+# Request
+geometry_msgs/TransformStamped transform
+---
+# Response
+pal_navigation_msgs/MapConfiguration map_config
