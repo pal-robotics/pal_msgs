@@ -2,6 +2,14 @@
 Changelog for package pal_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'feat/waypoint-follower' into 'dubnium-devel'
+  added TransformMapConfiguration and GetWaypoint
+  See merge request common/pal_msgs!54
+* added TransformMapConfiguration and GetWaypoint
+* Contributors: antoniobrandi
+
 0.17.0 (2024-12-11)
 -------------------
 
