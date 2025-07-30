@@ -2,8 +2,8 @@
 Changelog for package pal_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.0 (2025-07-30)
+------------------
 * Merge branch 'feat/waypoint-follower' into 'gallium-devel'
   Feat/waypoint follower
   See merge request common/pal_msgs!57
