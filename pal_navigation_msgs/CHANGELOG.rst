@@ -2,6 +2,15 @@
 Changelog for package pal_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'feat/waypoint-follower' into 'gallium-devel'
+  Feat/waypoint follower
+  See merge request common/pal_msgs!57
+* Added actions to waypoint
+* Added move mastil action
+* Contributors: Sergi Garcia, sergiomoyano
+
 0.18.0 (2025-04-16)
 -------------------
 * Merge branch 'feat/waypoint-follower' into 'dubnium-devel'
