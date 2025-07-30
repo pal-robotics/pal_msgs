@@ -1,12 +1,16 @@
-# Error codes
-# Note: The expected priority order of the errors should match the message order
+# Action codes
 uint32 NOTHING=0
 uint32 WAIT=1
 uint32 ROTATE=2
 uint32 DOCK=3
 uint32 UNDOCK=4
-uint32 MOVEMASTIL=5
+uint32 MOVE_MAST=5
 uint32 SNAPSHOT=6
+uint32 SWITCH_RFID_READER_STATE=7
+uint32 SET_NAVIGATION_VELOCITY_LIMITS=8
+uint32 EMIT_SOUND=9
+uint32 EMIT_LIGHT=10
+uint32 CORRIDOR_NAVIGATION=11
 
 uint32[] actions
 geometry_msgs/PoseStamped pose
