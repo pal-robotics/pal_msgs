@@ -2,6 +2,14 @@
 Changelog for package pal_navigation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'abr/feat/waypoint-action' into 'dubnium-devel'
+  add Waypoint action
+  See merge request common/pal_msgs!59
+* add Waypoint action
+* Contributors: antoniobrandi
+
 0.18.0 (2025-04-16)
 -------------------
 * Merge branch 'feat/waypoint-follower' into 'dubnium-devel'
