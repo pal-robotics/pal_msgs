@@ -5,6 +5,7 @@ uint32 WAIT=1
 uint32 ROTATE=2
 uint32 DOCK=3
 uint32 UNDOCK=4
+uint32 RELOCALIZE=5
 
 uint32[] actions
 geometry_msgs/PoseStamped pose
