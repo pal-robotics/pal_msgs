@@ -36,4 +36,6 @@ sensor_msgs/Image user_map
 #Transformation between ugly and pretty map
 pal_navigation_msgs/NiceMapTransformation transform
 
+#Waypoint Actions
+pal_navigation_msgs/WaypointAction[] waypoint_actions
 

@@ -37,6 +37,7 @@ add_message_files(
     Highways.msg
     LaserImage.msg
     Waypoint.msg
+    WaypointAction.msg
 )
 
 add_service_files(
