@@ -2,6 +2,9 @@
 Changelog for package pal_multirobot_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 0.18.1 (2025-10-14)
 -------------------
 
